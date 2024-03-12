@@ -18,6 +18,12 @@ ul {
     gap: 16px;
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .section-one {
     background-color: #1f2937;
 }
@@ -25,12 +31,8 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 12px 180px;
-}
-
-.header-link {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .logo {
